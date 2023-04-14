@@ -109,9 +109,8 @@ public class QuizActivity extends AppCompatActivity {
         optSelected = true;
         if (quiz.getCorrectAnswer() != opt1.getText().toString()) {
             opt1.setBackgroundColor(getResources().getColor(R.color.Red));
-        } else {
-            score++;
-        }
+        } else score++;
+
         correctAnswer(quiz);
     }
     public void opt2Selected(View view) {
@@ -119,9 +118,8 @@ public class QuizActivity extends AppCompatActivity {
         QuizApp quiz = quizzes.get(currentQuestion);
         if (quiz.getCorrectAnswer() != opt2.getText().toString()) {
             opt2.setBackgroundColor(getResources().getColor(R.color.Red));
-        } else {
-            score++;
-        }
+        } else score++;
+
         optSelected = true;
         correctAnswer(quiz);
     }
@@ -130,9 +128,8 @@ public class QuizActivity extends AppCompatActivity {
         QuizApp quiz = quizzes.get(currentQuestion);
         if (quiz.getCorrectAnswer() != opt3.getText().toString()) {
             opt3.setBackgroundColor(getResources().getColor(R.color.Red));
-        } else {
-            score++;
-        }
+        } else score++;
+
         optSelected = true;
         correctAnswer(quiz);
     }
@@ -141,9 +138,8 @@ public class QuizActivity extends AppCompatActivity {
         QuizApp quiz = quizzes.get(currentQuestion);
         if (quiz.getCorrectAnswer() != opt4.getText().toString()) {
             opt4.setBackgroundColor(getResources().getColor(R.color.Red));
-        } else {
-            score++;
-        }
+        } else score++;
+
         optSelected = true;
         correctAnswer(quiz);
     }
