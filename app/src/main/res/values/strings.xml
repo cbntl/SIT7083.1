@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SIT708 3.1: Quiz and Calculator</string>
+    <string name="firstNum">1st #</string>
+    <string name="secndNum">2nd #</string>
+    <string name="enter2num">Enter 2 numbers:</string>
+    <string name="back">Back</string>
+    <string name="quiz_app">SIT708</string>
+    <string name="quiz_app2">Quiz App</string>
+    <string name="name_input_hint">Enter your name:</string>
+    <string name="start_button_title">Take the SIT708 Quiz</string>
+    <string name="name_empty_error">You did not enter a name</string>
+    <string name="quiz_next">Next</string>
+    <string name="quiz_next_button">Next</string>
+    <string name="your_score">Your score:</string>
+    <string name="retake_quiz">Retake Quiz</string>
+    <string name="finish">Finish</string>
+    <string name="calculator">Calculator</string>
+    <string name="subtract">Subtract</string>
+    <string name="addition">Add</string>
+    <string name="result">Result</string>
+
+</resources>
