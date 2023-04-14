@@ -27,6 +27,7 @@ public class ResultActivity extends AppCompatActivity {
         resultTitleTextView = findViewById(R.id.resultTitleTextView);
         yourScoreTextView = findViewById(R.id.yourScoreTextView);
         scoreTextView = findViewById(R.id.scoreTextView);
+
         retryButton = findViewById(R.id.retakeButton);
         finishButton = findViewById(R.id.finishButton);
 

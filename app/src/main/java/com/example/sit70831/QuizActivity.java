@@ -7,12 +7,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Bundle;
 import android.view.View;
-
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+
 
 public class QuizActivity extends AppCompatActivity {
 
@@ -177,8 +177,9 @@ public class QuizActivity extends AppCompatActivity {
         totalQuestions = 5;
         optSelected = false;
         restartProgress();
-        getQuizQuestions();
         resetButtonsColor();
+        getQuizQuestions();
+
     }
     private void showToast(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
